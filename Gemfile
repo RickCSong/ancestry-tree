@@ -6,7 +6,6 @@ gem 'rails', '4.2'
 gem 'pg'
 
 # VIEWS
-gem 'csv_shaper'
 gem 'jbuilder'
 
 # JAVASCRIPT

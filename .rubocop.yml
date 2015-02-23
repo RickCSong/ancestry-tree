@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - lib/**/*
+    - vendor/**/*
+    - db/**/*
+    - js-app/**/*

@@ -47,8 +47,6 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     coderay (1.1.0)
-    csv_shaper (1.1.1)
-      activesupport (>= 3.0.0)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     ember-cli-rails (0.1.7)
@@ -182,7 +180,6 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  csv_shaper
   ember-cli-rails
   factory_girl_rails
   jbuilder
