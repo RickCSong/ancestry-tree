@@ -31,7 +31,7 @@ end
 
 group :test do
   # Don't require rspec-rails, since we don't want to use the built in tasks.
-  gem 'rspec-rails', require: false
+  gem 'rspec-rails', '~> 3.1.0', require: false
   gem 'shoulda-matchers', require: false
   gem 'spring-commands-rspec'
 end
