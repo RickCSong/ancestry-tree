@@ -1,10 +1,7 @@
 class Person < ActiveRecord::Base
-  validates :first_name,
-            presence: true
+  has_parents
 
-  validates :last_name,
-            presence: true
-
-  validates :birthday,
-            presence: true
+  validates :sex,
+            presence: true,
+            inclusion: {in: %w(M F)}
 end

@@ -4,6 +4,7 @@ gem 'rails', '4.2'
 
 # MODELS
 gem 'pg'
+gem 'genealogy'
 
 # VIEWS
 gem 'jbuilder'
@@ -22,6 +23,7 @@ end
 
 group :development, :test do
   gem 'annotate', require: false
+  gem 'faker'
   gem 'factory_girl_rails'
   gem 'rubocop', require: false
   gem 'timecop'

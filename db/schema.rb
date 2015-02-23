@@ -19,9 +19,14 @@ ActiveRecord::Schema.define(version: 20150223032624) do
   create_table "people", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
-    t.datetime "birthday"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "sex",               null: false
+    t.datetime "birth_date"
+    t.datetime "death_date"
+    t.integer  "father_id"
+    t.integer  "mother_id"
+    t.integer  "current_spouse_id"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
 end
