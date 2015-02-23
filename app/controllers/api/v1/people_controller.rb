@@ -1,9 +1,8 @@
-class PeopleController < ApplicationController
+class Api::V1::PeopleController < ApplicationController
   def index
     @people = Person.all
 
     respond_to do |format|
-      format.html { render 'index.json' }
       format.json
     end
   end
@@ -12,7 +11,6 @@ class PeopleController < ApplicationController
     @person = Person.find(params['id'])
 
     respond_to do |format|
-      format.html { render 'show.json' }
       format.json
     end
   end
