@@ -1,3 +1,3 @@
-EmberCLI.configure do |c|
-  c.app :frontend
-end
+# EmberCLI.configure do |c|
+#   c.app :frontend
+# end
